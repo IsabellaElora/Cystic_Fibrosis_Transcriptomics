@@ -88,3 +88,12 @@ Visualisation of selected CFTR variants relative to functional protein domains.
 
 ![CFTR variant map](figures/CFTR_variant_domain_map.png)
 
+
+## R Analysis Scripts
+
+The R scripts used in this project are available in the [`scripts`](scripts/) folder.
+
+- [`00_original_exploratory.R`](scripts/00_original_exploratory.R) — original exploratory analysis.
+- [`01_deseq2_analysis.R`](scripts/01_deseq2_analysis.R) — reorganised DESeq2 analysis workflow.
+
+The reorganised script is a documented starting point and has not yet been independently validated against the original input data.
