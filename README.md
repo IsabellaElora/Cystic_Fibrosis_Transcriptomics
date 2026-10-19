@@ -54,3 +54,37 @@ The sensitivity analysis examines how excluding one non-CF sample influences est
 Differential gene expression does not establish causality. Results are specific to the analysed dataset, experimental conditions and statistical design.
 
 This repository contains an exploratory research workflow 
+
+
+## Analysis and Visualisations
+
+### 1. Principal Component Analysis (PCA)
+Exploratory analysis of sample variation and potential clustering.
+
+![PCA plot](figures/PCA_UNC_CF_vs_NCF.png)
+
+### 2. Differential Gene Expression — MA Plot
+Visualisation of log2 fold changes against mean normalised counts.
+
+![MA plot](figures/MA_plot_UNC_CF_vs_NCF.png)
+
+### 3. Volcano Plot
+Visualisation of differential expression effect sizes and statistical significance.
+
+![Volcano plot](figures/Volcano_UNC_CF_vs_NCF.png)
+
+### 4. Sensitivity Analysis
+Comparison of log2 fold changes before and after excluding one non-CF sample to assess the influence of sample selection.
+
+![Sensitivity analysis](figures/Sensitivity_fold_change_comparison.png)
+
+### 5. Airway-Related Gene Expression
+Log2 fold changes for selected genes: DEFB1, IL20RB and SCGB3A1.
+
+![Gene expression](figures/CF_airway_gene_expression.png)
+
+### 6. CFTR Variants and Protein Domains
+Visualisation of selected CFTR variants relative to functional protein domains.
+
+![CFTR variant map](figures/CFTR_variant_domain_map.png)
+
